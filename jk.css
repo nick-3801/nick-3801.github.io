@@ -1,0 +1,102 @@
+
+body{
+	background-color: grey;
+}
+.menu{
+	position: fixed;
+	height: 100%;
+	width: 250px;
+	background-color: green;	
+	top:0;
+	left: 0;
+	transition: width,background-color;
+	transition-duration:1s;
+}
+.menu:hover{
+	position: fixed;
+	height: 100%;
+	width: 350px;
+	background-color: yellow;	
+	top:0;
+	left: 0;
+}
+.menu p{
+	color: green;
+	transition-duration: 1s
+}
+.menu:hover p{
+	color:black;
+}
+.menu-link{
+	display: flex;
+	align-items: center;
+	color: red;
+	text-decoration: none;
+	font-size: 20px;
+	transition: background-color
+}
+.menu-link:hover{
+	background-color: white
+}
+.menu .menu-link p{
+	opacity: 0%;
+} 
+.menu:hover .menu-link p{
+	opacity: 100%
+}
+.deal{
+	width: 1000px;
+	border-style: inset double;
+	border-color: #ccfff1;
+	border-width: 26px;
+	margin: auto;
+}
+.p-mid{
+	margin: 10px 400px;
+	font-size: 50px
+}
+.p-s{
+	font-size: 25px;
+}
+.p-f{
+	display: flex;
+}
+.img{
+	border: groove #ffe7a3 12px;
+}
+.rad{
+	border-radius: 50%; 
+
+}
+.menu-icon{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%; 
+
+}
+
+.a-h{
+	text-decoration: none;
+	width:50px;
+	background-color: #f5f5dc;
+	font-size:30px;
+
+}
+.enter-button{
+	display: block;
+	margin: auto;
+
+
+}
+.avatar{
+	margin-left:85%; 
+	position: fixed ;
+	height: 50%;
+	width: 200px;
+	background-color: white;	
+	top:0;
+	left: 0;
+	border-style: inset; 
+	border-color: #ccfff1;
+	border-width: 20px;
+}
